@@ -21,8 +21,8 @@ import {
   MDBIcon,
   MDBInput, MDBBtn
 } from 'mdb-react-ui-kit';
-import Explore from '../components/FabLab/Explore';
-import AppointmentForm from '../components/FabLab/AppointmentForm';
+import Explore from '../components/FabLab/ExploreFabLab';
+import AppointmentFormFabLab from '../components/FabLab/AppointmentFormFabLab';
 
 export default function FabLab() {
   const [showBasic, setShowBasic] = useState(false);
@@ -137,7 +137,7 @@ export default function FabLab() {
 
           <div className='flex flex-col items-center justify-center'>
             <h1>Request for Appointment </h1>
-            <AppointmentForm />
+            <AppointmentFormFabLab />
             <br></br>
           </div>
         </div>

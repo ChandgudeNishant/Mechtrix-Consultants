@@ -5,9 +5,9 @@ exports.createAppointment = async (req, res) => {
 
     console.log("req body", req.body);
 
-    const { name, email, contact, department } = req.body;
+    const {lab, name, email, contact, service, date } = req.body;
 
-    if (!name || !email || !contact || !department) {
+    if ( !lab ||!name || !email || !contact || !service || !date) {
       console.log("not all fields...");
       return res.status(400).json({
         status: 400,
@@ -16,10 +16,12 @@ exports.createAppointment = async (req, res) => {
     }
 
     const appointment = await Appointment.create({
+      lab,
       name,
       email,
       contact,
-      department,
+      service,
+      date,
     });
 
     return res.status(200).json({

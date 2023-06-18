@@ -1,6 +1,10 @@
 const mongoose = require("mongoose");
 
 const appointmentSchema = new mongoose.Schema({
+	lab:{
+		type:String,
+		required: true,
+	},
 	name: {
 		type: String,
 		required: true,
@@ -8,16 +12,21 @@ const appointmentSchema = new mongoose.Schema({
 	email: {
 		type: String,
 		required: true,
-		unique: true,
+		unique: false,
 	},
     contact: {
 		type: String,
 		required: true,
-		unique: true,
+		unique: false,
 	},
-    department: {
+	service: {
 		type: String,
 		required: true,
+	},
+    date: {
+		type: String,
+		required: true,
+		
 	},
 });
 
