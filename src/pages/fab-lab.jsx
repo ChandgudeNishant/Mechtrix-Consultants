@@ -56,15 +56,15 @@ export default function FabLab() {
       caption: 'Image 1'
     },
     {
-      url: img3,
+      url: img5,
       caption: 'Image 2'
     },
     {
-      url: img5,
+      url: img4,
       caption: 'Image 3'
     },
     {
-      url: img4,
+      url: img3,
       caption: 'Image 3'
     },
   ];
@@ -74,7 +74,7 @@ export default function FabLab() {
         <MDBContainer fluid>
           <img src={logo} style={{ height: '50px', width: '65px', padding: '5px' }} />
 
-          <MDBNavbarBrand style={{ paddingLeft: '10px', fontFamily: 'Nexa', fontSize: '30px' }} href='/'>Mechtrix Consultants</MDBNavbarBrand>
+          <MDBNavbarBrand style={{ paddingLeft: '10px', fontFamily: 'Nexa', fontSize: '30px' }} href='/landing'>Mechtrix Consultants</MDBNavbarBrand>
 
           <MDBNavbarToggler
             aria-controls='navbarSupportedContent'
@@ -108,7 +108,7 @@ export default function FabLab() {
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem style={{ fontFamily: 'Nexa-Light', fontSize: '20px', padding: '18px', fontWeight: 'bold' }}>
-                <MDBNavbarLink active aria-current='page' href='/'>
+                <MDBNavbarLink active aria-current='page' href='/landing'>
                   About us
                 </MDBNavbarLink>
               </MDBNavbarItem>
@@ -145,7 +145,7 @@ export default function FabLab() {
 
         <h1>Contact us </h1>
         <p><span>Dr. Kiran Wakchaure</span><br />
-          Fablab incharge<br />
+          Fablab Lab Coordinator<br />
           <span> Email:</span> kiranwakchaure@gmail.com<br />
           <span>Mobile No.</span> +91-7588025393
 

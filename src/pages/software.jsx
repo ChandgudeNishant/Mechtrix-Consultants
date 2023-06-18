@@ -83,7 +83,7 @@ export default function Software() {
              <MDBContainer fluid>
              <img src={logo} style={{height:'50px', width:'65px',padding:'5px'}}/>
 
-      <MDBNavbarBrand  style={{ paddingLeft:'10px', fontFamily: 'Nexa', fontSize: '30px' }} href='/'>Mechtrix Consultants</MDBNavbarBrand>
+      <MDBNavbarBrand  style={{ paddingLeft:'10px', fontFamily: 'Nexa', fontSize: '30px' }} href='/landing'>Mechtrix Consultants</MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
@@ -117,7 +117,7 @@ export default function Software() {
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem style={{ fontFamily: 'Nexa-Light', fontSize: '20px', padding:'18px', fontWeight:'bold'}}>
-              <MDBNavbarLink active aria-current='page' href='/'>
+              <MDBNavbarLink active aria-current='page' href='/landing'>
               About us
               </MDBNavbarLink>
             </MDBNavbarItem>
@@ -138,16 +138,15 @@ export default function Software() {
       </div> <FormContainer>
       <br></br>
 <h1>Software Solutions</h1>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-  
+<p></p>  
   <br></br>
 <h1>Request for Appointment </h1>
 <AppointmentFormSoftware/>
 <br></br>
 <h1>Contact us </h1>
-<p><span>Prof. Vishant Kumar</span><br/>
-         Assistant Professor Industry 4.0<br/>
-        <span> Email:</span> vishantkumar@gmail.com<br/>
+<p><span>Prof. Chaitanya Kale </span><br/>
+         Software and Coding <br/>
+        <span> Email:</span> chaitanyakale@gmail.com<br/>
          <span>Mobile No.</span> +91-9311896871
           
 </p> 

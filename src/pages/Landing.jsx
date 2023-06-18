@@ -62,7 +62,7 @@ export default function Landing() {
              <MDBContainer fluid>
              <img src={logo} style={{height:'50px', width:'65px',padding:'5px'}}/>
 
-      <MDBNavbarBrand  style={{ paddingLeft:'10px', fontFamily: 'Nexa', fontSize: '30px' }} href='/'>Mechtrix Consultants</MDBNavbarBrand>
+      <MDBNavbarBrand  style={{ paddingLeft:'10px', fontFamily: 'Nexa', fontSize: '30px' }} href='/landing'>Mechtrix Consultants</MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
@@ -96,7 +96,7 @@ export default function Landing() {
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem style={{ fontFamily: 'Nexa-Light', fontSize: '20px', padding:'18px', fontWeight:'bold'}}>
-              <MDBNavbarLink active aria-current='page' href='/'>
+              <MDBNavbarLink active aria-current='page' href='/landing'>
               About us
               </MDBNavbarLink>
             </MDBNavbarItem>
@@ -125,8 +125,14 @@ With the rapid advancement of technology and the increasing demand for seamless 
 
 <br></br>
 <h1>Contact us </h1>
+<p><span>Dr. Rajendra Kapgate</span><br/>
+HOD Mechatronics<br/>
+        <span> Email:</span> rajendrakapgate@gmail.com<br/>
+         <span>Mobile No.</span> +91-9890515588
+          
+</p>
 <p><span>Prof. Vishant Kumar</span><br/>
-         Assistant Professor Industry 4.0<br/>
+Mechtrix Consultancy Coordinator<br/>
         <span> Email:</span> vishantkumar@gmail.com<br/>
          <span>Mobile No.</span> +91-9311896871
           

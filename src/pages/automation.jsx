@@ -62,7 +62,7 @@ url:'https://datasemantics.co/wp-content/uploads/2021/02/Automation-in-workplace
              <MDBContainer fluid>
              <img src={logo} style={{height:'50px', width:'65px',padding:'5px'}}/>
 
-      <MDBNavbarBrand  style={{ paddingLeft:'10px', fontFamily: 'Nexa', fontSize: '30px' }} href='/'>Mechtrix Consultants</MDBNavbarBrand>
+      <MDBNavbarBrand  style={{ paddingLeft:'10px', fontFamily: 'Nexa', fontSize: '30px' }} href='/landing'>Mechtrix Consultants</MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
@@ -96,7 +96,7 @@ url:'https://datasemantics.co/wp-content/uploads/2021/02/Automation-in-workplace
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem style={{ fontFamily: 'Nexa-Light', fontSize: '20px', padding:'18px', fontWeight:'bold'}}>
-              <MDBNavbarLink active aria-current='page' href='/'>
+              <MDBNavbarLink active aria-current='page' href='/landing'>
               About us
               </MDBNavbarLink>
             </MDBNavbarItem>
@@ -127,8 +127,8 @@ From industrial manufacturing to logistics and beyond, automation plays a crucia
 <MDBBtn size = "lg">Submit</MDBBtn>
 <br></br>
 <h1>Contact us </h1>
-<p><span>Prof. Naveen Kumar</span><br/>
-         Assistant Professor Automation<br/>
+<p><span>Dr. Naveen Kumar</span><br/>
+         Automation Lab Coordinator <br/>
         <span> Email:</span> naveenkumar@gmail.com<br/>
          <span>Mobile No.</span> +91-9311896871
           

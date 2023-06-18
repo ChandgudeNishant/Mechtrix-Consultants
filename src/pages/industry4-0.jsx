@@ -60,7 +60,7 @@ export default function Industry() {
              <MDBContainer fluid>
              <img src={logo} style={{height:'50px', width:'65px',padding:'5px'}}/>
 
-      <MDBNavbarBrand  style={{ paddingLeft:'10px', fontFamily: 'Nexa', fontSize: '30px' }} href='/'>Mechtrix Consultants</MDBNavbarBrand>
+      <MDBNavbarBrand  style={{ paddingLeft:'10px', fontFamily: 'Nexa', fontSize: '30px' }} href='/landing'>Mechtrix Consultants</MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
@@ -94,7 +94,7 @@ export default function Industry() {
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem style={{ fontFamily: 'Nexa-Light', fontSize: '20px', padding:'18px', fontWeight:'bold'}}>
-              <MDBNavbarLink active aria-current='page' href='/'>
+              <MDBNavbarLink active aria-current='page' href='/landing'>
               About us
               </MDBNavbarLink>
             </MDBNavbarItem>
@@ -115,15 +115,14 @@ export default function Industry() {
       </div> <FormContainer>
       <br></br>
 <h1>Industry 4.0</h1>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-  
+<p>Immerse yourself in the cutting-edge technologies and innovations of Industry 4.0. Explore the transformative potential of artificial intelligence, internet of things (IoT), big data analytics, and robotics. Discover real-world case studies, research papers, and practical implementation strategies to drive the future of manufacturing and beyond.</p>  
   <br></br>
 <h1>Request for Appointment </h1>
 <AppointmentFormIndustry4_0/>
 <br></br>
 <h1>Contact us </h1>
 <p><span>Prof. Vishant Kumar</span><br/>
-         Assistant Professor Industry 4.0<br/>
+        Industry 4.0 Lab Coordinator<br/>
         <span> Email:</span> vishantkumar@gmail.com<br/>
          <span>Mobile No.</span> +91-9311896871
           
