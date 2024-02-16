@@ -29,17 +29,17 @@ export const ExploreLab = [
                 heading: '3D Printer',
                 description:'Step into the world of 3D printing and explore the realm of limitless possibilities. Our cutting-edge 3D printer allows you to bring your digital designs to life with incredible detail and precision. From prototypes to functional parts, our 3D printing capabilities empower you to innovate, create, and revolutionize various industries.',
                 features: [
-                    { feature: '• High cutting precision and positional accuracy' },
-                    { feature: '• Improved edge quality and surface finish' },
-                    { feature: 'Higher repeatability' },
-                    { feature: 'Advanced laser tools for material processing applications' },
-                    { feature: 'Drilling and engraving in addition to cutting' },
-                    { feature: 'Negligible work piece degradation' },
-                    { feature: 'Cost-effectiveness' },
-                    { feature: 'Minimal thermal stress zone' },
-                    { feature: 'Shapes High Speed belt drive plotting unit with precise micro stepping drives' },
-                    { feature: 'Red beam pointer' },
-                    { feature: 'Y- Axis' },
+                    { feature: '• Build volume: 300 x 225 x 380 mm' },
+                    { feature: '• Feeder system: Bowdenh' },
+                    { feature: '• Print head: Single nozzle' },
+                    { feature: '• Nozzle size: 0.4 mm' },
+                    { feature: '• Max. hot end temperature: 250 ℃' },
+                    { feature: '• Max. heated bed temperature: 100 °C' },
+                    { feature: '• Print bed material: Glass' },
+                    { feature: '• Frame: Aluminum' },
+                    { feature: '• Connectivity: SD card, USB' },
+                    { feature: '• Filament materials: Consumer materials (PLA, ABS, PETG, flexibles)' },
+                    { feature: '• File types: STL, OBJ, AMF' },
                 ]
             }
         ]
