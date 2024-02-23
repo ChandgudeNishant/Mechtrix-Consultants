@@ -1,4 +1,4 @@
-# A consultancy website used to book appointments for different services provided by Mechtrix Consultants
+[Mechtrix-consultants-website-tour-video.webm](https://github.com/ChandgudeNishant/Mechtrix-Consultants/assets/99669925/4fe68a06-717d-4992-bb04-b4fc93302cf8)# A consultancy website used to book appointments for different services provided by Mechtrix Consultants
 
 - Crafted a robust Consultancy Website with intricate service details and seamless appointment scheduling.
 - Instituted an intuitive interface, enabling users to explore services, and descriptions, and schedule appointments effortlessly.
@@ -7,7 +7,7 @@
 - The tech stack used to build this project is MERN Stack.
 
 **Demo video of the Mechtrix Consultancy website**
-[Uploading Mechtrix-consultants-website-tour-video.webm…]()
+[Mechtrix-consultants-website-tour-video.webm](https://github.com/ChandgudeNishant/Mechtrix-Consultants/assets/99669925/c97c8a08-b313-4b1b-9445-573670a94b7f)
 
 
 **Let's run this project**
