@@ -1,4 +1,4 @@
-[Mechtrix-consultants-website-tour-video.webm](https://github.com/ChandgudeNishant/Mechtrix-Consultants/assets/99669925/4fe68a06-717d-4992-bb04-b4fc93302cf8)# A consultancy website used to book appointments for different services provided by Mechtrix Consultants
+# A consultancy website used to book appointments for different services provided by Mechtrix Consultants
 
 - Crafted a robust Consultancy Website with intricate service details and seamless appointment scheduling.
 - Instituted an intuitive interface, enabling users to explore services, and descriptions, and schedule appointments effortlessly.
