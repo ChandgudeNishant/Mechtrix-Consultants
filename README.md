@@ -1,10 +1,13 @@
 # A consultancy website used to book appointments for different services provided by Mechtrix Consultants
 
 - Crafted a robust Consultancy Website with intricate service details and seamless appointment scheduling.
-- Instituted an intuitive interface, enabling users to effortlessly explore services, and descriptions, and schedule appointments.
+- Instituted an intuitive interface, enabling users to explore services, and descriptions, and schedule appointments effortlessly.
 - Optimized administrative processes with thorough data management and precise access control for departmental leadership.
 
 - The tech stack used to build this project is MERN Stack.
+
+**Demo video of the Mechtrix Consultancy website**
+[Mechtrix-consultants-website-tour-video.webm](https://github.com/ChandgudeNishant/Mechtrix-Consultants/assets/99669925/76e468c0-c741-4917-9d3d-c575a37274a8)
 
 **Let's run this project**
 - First, clone the repository using this:
@@ -22,7 +25,7 @@ $ npm install
 $ nodemon index.js
 ```
 - Now run the react app using:
-  redirect to root directory and open new terminal:
+  redirect to the root directory and open a new terminal:
 ```
 $ npm start
 ``` 
