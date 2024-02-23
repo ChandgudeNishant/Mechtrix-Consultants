@@ -7,7 +7,8 @@
 - The tech stack used to build this project is MERN Stack.
 
 **Demo video of the Mechtrix Consultancy website**
-[Mechtrix-consultants-website-tour-video.webm](https://github.com/ChandgudeNishant/Mechtrix-Consultants/assets/99669925/76e468c0-c741-4917-9d3d-c575a37274a8)
+[Uploading Mechtrix-consultants-website-tour-video.webm…]()
+
 
 **Let's run this project**
 - First, clone the repository using this:
