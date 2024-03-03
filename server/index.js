@@ -1,12 +1,15 @@
 const express = require("express");
 require("dotenv").config();
+const passport = require('./auth/auth');
 
 const dbConnect = require("./config/database");
-const appointmentRoutes = require("./routes/appointment");
+const appointmentRoutes = require("./routes/allRoutes");
 
 const app = express();
 var cors = require("cors");
 const PORT = process.env.PORT || 4000;
+const bodyParser = require('body-parser'); 
+app.use(bodyParser.json()); // req.body
 
 /* `app.use(cors({ origin: "*" }))` is enabling Cross-Origin Resource Sharing (CORS) for all routes in
 the Express application. CORS is a security feature implemented in web browsers that restricts web
@@ -19,7 +22,16 @@ app.use(
     origin: "*",
   })
 );
-// Middleware
+// Middleware Function
+const logRequest = (req, res, next) => {
+  console.log(`[${new Date().toLocaleString()}] Request Made to : ${req.originalUrl}`);
+  next(); // Move on to the next phase
+}
+app.use(logRequest);
+
+app.use(passport.initialize());
+const localAuthMiddleware = passport.authenticate('local', {session: false})
+
 app.use(express.json());
 
 /* `app.use("/api/v1", userRoutes);` is mounting the `userRoutes` middleware on the `/api/v1` route.

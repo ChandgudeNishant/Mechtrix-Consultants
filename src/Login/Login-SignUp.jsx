@@ -16,6 +16,7 @@ import { useNavigate } from "react-router-dom";
 // import { useDispatch } from "react-redux"
 // import login from './authAPI';
 import styled from "styled-components";
+// import { response } from "express";
 
 function App() {
   // const dispatch = useDispatch()
@@ -58,19 +59,52 @@ function App() {
         }
       );
 
-      const savedUserResult = await savedUserResponse.json();
+      const savedUserDataAfterSignUp = await savedUserResponse.json();
 
-      if (savedUserResult.success) {
+      localStorage.setItem("token", savedUserDataAfterSignUp.token); // Store token in local storage
+
+      if (savedUserDataAfterSignUp.token) {
         setDone(`You have successfully signed. Please Login 🥳`);
         // User created successfully
       } else {
         // User already exists or other error occurred
-        console.log("Error:", savedUserResult.message);
-        setError(savedUserResult.message);
+        console.log("Error:", savedUserDataAfterSignUp.message);
+        setError(savedUserDataAfterSignUp.message);
         // Display the error message to the user or perform any other action
       }
     } catch (error) {
       console.log("Error:", error.message);
+      // Handle the error or display an error message to the user
+    }
+  };
+
+  const loginUser = async (data) => {
+    try {
+      const loginResponse = await fetch(
+        `${process.env.REACT_APP_BASE_URL}/loginUser`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ ...data }),
+        }
+      );
+
+      const loginResult = await loginResponse.json();
+      localStorage.setItem("token", loginResult.token); // Store token in local storage
+
+      if (loginResult.token) {
+        // Login successful
+        navigate("/landing");
+      } else {
+        // Invalid email or password
+        console.log("Error:", loginResult.error);
+        setError1(loginResult.error);
+        // Display the error message to the user or perform any other action
+      }
+    } catch (error) {
+      console.log("Error:", error.error);
       // Handle the error or display an error message to the user
     }
   };
@@ -95,36 +129,6 @@ function App() {
 
   //   console.log('Submitted email:', email, firstName,lastName,password);
   // };
-
-  const loginUser = async (data) => {
-    try {
-      const loginResponse = await fetch(
-        `${process.env.REACT_APP_BASE_URL}/loginUser`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ ...data }),
-        }
-      );
-
-      const loginResult = await loginResponse.json();
-
-      if (loginResult.success) {
-        // Login successful
-        navigate("/landing");
-      } else {
-        // Invalid email or password
-        console.log("Error:", loginResult.message);
-        setError1(loginResult.message);
-        // Display the error message to the user or perform any other action
-      }
-    } catch (error) {
-      console.log("Error:", error.message);
-      // Handle the error or display an error message to the user
-    }
-  };
 
   // const handleJustifyClick = (value) => {
   //   if (value === justifyActive) {

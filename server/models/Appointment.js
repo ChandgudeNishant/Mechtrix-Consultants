@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const appointmentSchema = new mongoose.Schema({
+const AppointmentSchema = new mongoose.Schema({
 	lab:{
 		type:String,
 		required: true,
@@ -30,4 +30,4 @@ const appointmentSchema = new mongoose.Schema({
 	},
 });
 
-module.exports = mongoose.model("Appointment", appointmentSchema);
+module.exports = mongoose.model("Appointment", AppointmentSchema);
