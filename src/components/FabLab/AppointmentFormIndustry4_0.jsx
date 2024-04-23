@@ -52,7 +52,7 @@ const AppointmentFormIndustry4_0 = () => {
         setThankYou("Thank you!! Your Appointment is Booked 🤩");
         console.log("FORM RESPONSE......", savedAppointmentResponse.status);
       }
-      navigate("/fab-lab");
+      navigate("/industry-4-0");
     } catch (error) {
       // Handle the error
       // ...

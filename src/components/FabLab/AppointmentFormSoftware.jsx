@@ -53,7 +53,7 @@ const AppointmentFormSoftware = () => {
         setThankYou("Thank you!! Your Appointment is Booked 🤩");
         console.log("FORM RESPONSE......", savedAppointmentResponse.status);
       }
-      navigate("/fab-lab");
+      navigate("/software");
     } catch (error) {
       // Handle the error
       // ...

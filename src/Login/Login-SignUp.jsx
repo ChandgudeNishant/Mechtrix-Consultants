@@ -7,16 +7,12 @@ import {
   MDBTabsContent,
   MDBTabsPane,
   MDBBtn,
-  MDBIcon,
   MDBInput,
   MDBCheckbox,
 } from "mdb-react-ui-kit";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
-// import { useDispatch } from "react-redux"
-// import login from './authAPI';
 import styled from "styled-components";
-// import { response } from "express";
 
 function App() {
   // const dispatch = useDispatch()
@@ -65,11 +61,13 @@ function App() {
 
       if (savedUserDataAfterSignUp.token) {
         setDone(`You have successfully signed. Please Login 🥳`);
+        setError("");
         // User created successfully
       } else {
         // User already exists or other error occurred
-        console.log("Error:", savedUserDataAfterSignUp.message);
-        setError(savedUserDataAfterSignUp.message);
+        console.log("Error:", savedUserDataAfterSignUp);
+        setDone("");
+        setError("Already registered user");
         // Display the error message to the user or perform any other action
       }
     } catch (error) {
